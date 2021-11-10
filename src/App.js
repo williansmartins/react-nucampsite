@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Directory from './components/ComponentDirectory';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <Directory />
       </header>
     </div>
   );
